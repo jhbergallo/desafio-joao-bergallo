@@ -5,15 +5,7 @@ class Combo{
         this._itens = itens;
         this._valor = valor;
     }
-    get valor(){
-        return this._valor;
-    }
-    get codigo(){
-        return this._codigo;
-    }
-    get itens(){
-        return this._itens;
-    }
+    
 }
 
 export{Combo};
