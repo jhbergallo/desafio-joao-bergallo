@@ -3,11 +3,6 @@ import {Cardapio} from './cardapio.js';
 class CaixaDaLanchonete {
 
     calcularValorDaCompra(metodoDePagamento, itens) {
-        //COMENTARIO:
-        //tentei implementar os combos, mas como nas regras dizia que eles não podiam ser itens principais
-        //e no caso de teste não aparecia como o combo seria testado (ex: ['combo1,1', 'cafe,1'])
-        //então optei por não implementar nada do combo já que nos resultados do teste diminuia minha porcentagem
-        //de acerto caso tivesse algo não sendo usado
         const listaCardapio = new Cardapio();
         const cardapio = listaCardapio.cardapio;
 
