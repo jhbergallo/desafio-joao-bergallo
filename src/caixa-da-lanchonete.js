@@ -1,5 +1,5 @@
 import {Cardapio} from './cardapio.js';
-//
+
 class CaixaDaLanchonete {
 
     calcularValorDaCompra(metodoDePagamento, itens) {
